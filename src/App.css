@@ -1,0 +1,46 @@
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.menu,
+.order-list {
+  margin-bottom: 20px;
+}
+
+.menu-item,
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.theme-switcher {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-switcher:hover {
+  background-color: #0056b3;
+}
